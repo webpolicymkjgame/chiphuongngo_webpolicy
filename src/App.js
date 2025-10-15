@@ -7,7 +7,8 @@ import imgMkj from './assets/banner.png';
 import googlePlayIcon from './assets/google-play.png';
 
 
-import currency from './assets/app/currency.png';
+import phonecase from './assets/app/phonecase.png';
+import merge from './assets/app/merge.png';
 
 
 import PolicyPage from './PolicyPage';
@@ -21,8 +22,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Sortera Bio Limited" className="logo-img" />
-                <span className="studio-name">Sortera Bio Limited</span>
+                <img src={logoImg} alt="Chi Phuong Ngo" className="logo-img" />
+                <span className="studio-name">Chi Phuong Ngo</span>
               </div>
             </div>
 
@@ -41,9 +42,14 @@ function Header() {
 function HomePage() {
   const apps = [
     {
-      name: 'Control Center & Smart Panel',
-      image: currency,
-      link: 'https://play.google.com/store/apps/details?id=com.tools.controlcenter.simplecontrol.easycontrol.controlpanel'
+      name: '3D Phone Case DIY: Makeover',
+      image: phonecase,
+      link: 'https://apps.apple.com/us/app/3d-phone-case-diy-makeover/id6753043041'
+    },
+    {
+      name: 'Master Merge - Funny Drop',
+      image: merge,
+      link: 'https://apps.apple.com/us/app/master-merge-funny-drop/id6747335045'
     }
   ];
 
@@ -52,8 +58,8 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Sortera Bio Limited – Welcome Aboard</h2>
-            <p className="about-text">Sortera Bio Limited is an innovative mobile app studio dedicated to creating reliable, creative, and user-friendly applications. Our goal is to unite imagination with practicality, providing solutions that extend across casual games, productivity tools, lifestyle, and education. Every app we design is thoughtfully built around the user experience — offering seamless navigation, polished details, and real-world value — to make everyday life easier, smarter, and more enjoyable for people everywhere.</p>
+            <h2 className="highlight-title">Chi Phuong Ngo – Welcome Aboard</h2>
+            <p className="about-text">Chi Phuong Ngo is a creative mobile game studio focused on crafting fun, engaging, and accessible casual experiences for everyone. We combine imagination with simplicity to deliver games that are easy to pick up yet hard to put down. Our mission is to bring joy to everyday moments through intuitive gameplay, charming visuals, and rewarding progression. Every title we develop is designed with players in mind — ensuring smooth performance, delightful interactions, and a sense of satisfaction that keeps people coming back for more.</p>
           </div>
           <div className="about-img-container">
             <img src={imgMkj} alt="About MKJ Studio" className="about-img" />
@@ -72,7 +78,7 @@ function HomePage() {
                   <h3>{game.name}</h3>
                   <a href={game.link} target="_blank" rel="noopener noreferrer" className="btn btn-google-play">
                     <img src={googlePlayIcon} alt="Google Play" className="google-play-icon" />
-                    Get on Google Play
+                    Get on App Store
                   </a>
                 </div>
               </div>
@@ -86,13 +92,9 @@ function HomePage() {
           <h2>Contact Us</h2>
           <p>
             If you have any questions about this Privacy Policy, request support, please contact us at:<br />
-            <a href="mailto: parksCamrenaju51iy@gmail.com@gmail.com"> parksCamrenaju51iy@gmail.com@gmail.com</a><br />
+            <a href="mailto: chimoe379@gmail.com"> chimoe379@gmail.com</a><br />
             <span style={{ display: 'inline-block', marginTop: '10px' }}>
-              🏠 SORTERA BIO LIMITED
-                Sovereign House
-                Vision Park, Chivers Way, Histon
-                CAMBRIDGE - CB24 9BZ
-                Vương quốc Anh (GB)
+
             </span>
           </p>
         </div>
@@ -112,7 +114,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Sortera Bio Limited. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Chi Phuong Ngo. All rights reserved.</p>
           </div>
         </footer>
       </div>
