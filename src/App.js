@@ -22,8 +22,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Chi Phuong Ngo" className="logo-img" />
-                <span className="studio-name">Chi Phuong Ngo</span>
+                <img src={logoImg} alt="CHI PHUONG NGO STUDIO" className="logo-img" />
+                <span className="studio-name">CHI PHUONG NGO STUDIO</span>
               </div>
             </div>
 
@@ -58,8 +58,8 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Chi Phuong Ngo – Welcome Aboard</h2>
-            <p className="about-text">Chi Phuong Ngo is a creative mobile game studio focused on crafting fun, engaging, and accessible casual experiences for everyone. We combine imagination with simplicity to deliver games that are easy to pick up yet hard to put down. Our mission is to bring joy to everyday moments through intuitive gameplay, charming visuals, and rewarding progression. Every title we develop is designed with players in mind — ensuring smooth performance, delightful interactions, and a sense of satisfaction that keeps people coming back for more.</p>
+            <h2 className="highlight-title">CHI PHUONG NGO STUDIO – Welcome Aboard</h2>
+            <p className="about-text">CHI PHUONG NGO STUDIO is a creative mobile game studio focused on crafting fun, engaging, and accessible casual experiences for everyone. We combine imagination with simplicity to deliver games that are easy to pick up yet hard to put down. Our mission is to bring joy to everyday moments through intuitive gameplay, charming visuals, and rewarding progression. Every title we develop is designed with players in mind — ensuring smooth performance, delightful interactions, and a sense of satisfaction that keeps people coming back for more.</p>
           </div>
           <div className="about-img-container">
             <img src={imgMkj} alt="About MKJ Studio" className="about-img" />
@@ -114,7 +114,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Chi Phuong Ngo. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} CHI PHUONG NGO STUDIO. All rights reserved.</p>
           </div>
         </footer>
       </div>
